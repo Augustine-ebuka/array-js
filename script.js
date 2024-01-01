@@ -205,3 +205,63 @@ const addNum = [2,46,3,64,24]
 // console.log(newNum)
 
 
+// // shift methid removes from the left and return it
+
+// const nums = [1,2,4,4]
+// nums.shift()
+// console.log(nums)
+
+// find method : it return the first element of a list that meet the callback condition
+
+// const nums = [2,3,523,68]
+// const findme = nums.find((val)=>{
+//     return val > 3
+// })
+// console.log(findme)
+
+// findIndeOf return the index of the first element that meet a condition
+
+// const nums = [72,24,52,56]
+// const indexme = nums.findIndex((val)=>{
+//    return  val > 30
+// })
+// console.log(indexme)
+
+// unshift method add one or more at the beginnin of an array and retunr the total len
+
+// const nums  = [3,3,5,78]
+// nums.unshift(34)
+// console.log(nums)
+
+// array includes method check if an item is includd in an array
+
+// const names =  ['hh','pop', 'firk']
+// const check = names.includes('florin')
+
+// if(check){
+//     console.log("yeeeee~")
+// }else{
+//     console.log("sad let buy")
+// }
+
+// reverse method, the last become first and first become last
+
+// const nums = [1,2,3,4,5]
+// console.log(nums.reverse())
+
+// // flat method creact a new array by concatinating all the subarray init and numver of depth of the array
+
+// const depthArray = [1,[2,[4,[3]]]]
+// console.log(depthArray.flat(Infinity))
+// console.log(depthArray)
+
+// concate method create new array by merging two or more array
+
+// const a =[1,2,3]
+// const b =[4,5,6]
+// const c =[7,8,9]
+
+// const d = a.concat(b,c)
+// console.log(d)
+
+
