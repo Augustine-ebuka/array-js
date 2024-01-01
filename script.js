@@ -75,7 +75,7 @@
 
 // filter method removes a set of array provided the call back func returns false
 
-const num3 = [2,3,4,6,,8,5,3,6]
+// const num3 = [2,3,4,6,,8,5,3,6]
 // list out nums that are > 5
 
 // const newNum = num3.filter(num => num >5)
@@ -129,8 +129,79 @@ const num3 = [2,3,4,6,,8,5,3,6]
 // const nums = [34,23,5,8,3,1,67,3]
 // console.log(nums.sort((a,b)=> a-b).filter((value,ind, array)=> array.indexOf(value)==ind) );
 
+// reduce method takes all the items in an array and return a SINGLE value. e.g adding a list of num
 
+const addNum = [2,46,3,64,24]
+// const total = addNum.reduce((acc,value)=>{
+//     return acc+ value
+// }, 0)
 
+// const max = addNum.reduce((acc, val)=>{
+//     if (acc > val) {
+//         return acc
+//     }else{
+//         return val
+//     }
+// }, -Infinity)
+// console.log(max);
 
+// const store = [
+//     {
+//         name:'laptop',
+//         price: 234,
+//         count: 3
+//     },
+//     {
+//         name:'phone',
+//         price: 304,
+//         count: 10
+//     },
+//     {
+//         name:'cable',
+//         price: 100,
+//         count: 3
+//     },
+// ]
+
+// // to know all the price of product
+
+// const totalValueStore = store.reduce((acc,value)=>{
+//     return acc + (value.count*value.price)
+// },0)
+// console.log(totalValueStore);
+
+// join method create string from a list
+
+// const countries = ['romania', 'nigeria', 'india']
+// const stringF = "myscholl"
+// console.log(Array.from(stringF, String))
+
+// console.log(countries.join(' '))
+
+// foreach method execute a function on every element from array
+
+// const allNum = [1,2,3,4,5]
+// const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'e']
+// const obj = {}
+// let sum = 0
+// letters.forEach(item => {
+//     if(obj){
+//         obj[item] = 4
+//     }else{
+//         obj[item]= 1
+//     }
+// })
+// console.log(obj)
+
+// // push method allow you add to the right one or more element and return new len of array
+
+// const num = [1,2,3,4,5]
+// num.push(2)
+// const newNum = num.sort((a,b)=>{
+//     return a - b
+// }).filter((value, ind, arr)=>{
+//     return arr.indexOf(value) == ind
+// })
+// console.log(newNum)
 
 
